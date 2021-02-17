@@ -17,7 +17,7 @@ body, header, nav, main, footer, h1, div, img, ul{
     }
     
     img{
-        max-width: 100;
+        max-width: 100%;
         display: block;
     }
 
@@ -59,7 +59,7 @@ body, header, nav, main, footer, h1, div, img, ul{
     nav li a {
         display: block;
         color: #fff;
-        padding: 0.5em 1 em;
+        padding: 0.5em 1em;
         text-decoration: none;
     }
 
@@ -133,7 +133,7 @@ body, header, nav, main, footer, h1, div, img, ul{
     .map {
         border: 2px solid #000;
         width: 95%;
-        height: 50;
+        height: 50px;
     }
     
     /* Style rules for the footer content */
