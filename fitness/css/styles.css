@@ -5,7 +5,7 @@ File name: styles.css
 */
 
 /* CSS Reset */
-body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside {
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside, audio, video {
         margin: 0;
         padding: 0;
         border: 0;
@@ -16,7 +16,7 @@ body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, 
         background-color: #000;
     }
     
-    img{
+    img, video {
         max-width: 100%;
         display: block;
     }
@@ -81,6 +81,10 @@ body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, 
         padding: 2%;
         font-size: 1.25em;
         font-family: 'Roboto Slab', serif;
+    }
+
+    video {
+        margin: 0 auto 4%;
     }
 
     .mobile h3 {
@@ -318,7 +322,7 @@ body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, 
         }
 
         /*Tablet Viewport: Style Rules for tablet*/
-        tablet {
+        table {
             border: 1px solid #000;
             border-collapse: collapse;
             margin: 0 auto;
